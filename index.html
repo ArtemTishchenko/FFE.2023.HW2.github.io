@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body class="body">
+    <h1 class="h1">CSS grid-template-areas Property</h1>
+    <div class="mainblock">
+        <p class="example">Example</p>
+        <p class="text">Make the named item "myArea" span two columns in a five columns grid layout:
+        </p>
+        <div class="codeblock">
+            <span class="selectorcolor">.item1</span>
+            {
+            <br>
+            <span class="propertycolor">&nbsp; grid-area: </span>
+            <span class="propertycolorvalue">myArea</span>;
+            <br>
+            }
+            <br>
+            <span class="selectorcolor">.grid-container</span>
+            {
+            <br>
+            <span class="propertycolor">&nbsp; &nbsp; display: </span>
+            <span class="propertycolorvalue">grid</span>;
+            <br>
+            <span class="propertycolor">&nbsp; &nbsp; grid-template-areas: </span>
+            <span class="propertycolorvalue">"myArea myArea . . ."</span>;
+            <br>
+            }
+        </div>
+        <button class="tryButton">
+            <span class="btn-color">Try it Yourself ></span>
+        </button>
+    </div>
+    <hr>
+    <h2>Definition and Usage</h2>
+    <p>
+        The 
+        <span class="text2">grid-template-areas</span>
+        property specifies areas within the grid layout.
+    </p>
+    <p>
+        You can name grid items by using the grid-area property, and then reference to the name in the 
+        <span class="text2">grid-template-areas</span>
+        property.
+    </p>
+    <p>
+        Each area is defined by apostrophes. Use a period sign to refer to a grid item with no name.
+    </p>
+    <button class="tryButton">
+        <span class="btn-color">Show Demo ></span>
+    </button>
+</body>
+</html>

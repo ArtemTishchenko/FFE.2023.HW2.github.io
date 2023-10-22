@@ -1,0 +1,63 @@
+.body {
+    margin: 20px;
+}
+
+.h1 {
+    padding: auto;
+}
+
+.mainblock {
+    background-color: #E7E9EB;
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+
+.example {
+    font-family: Verdana, sans-serif;
+    font-size: 22px;
+}
+
+.text {
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+}
+
+.codeblock {
+    background-color: white;
+    border-left: 4px solid #04AA6D;
+    padding: 8px;
+    font-size: 15px;
+}
+
+.selectorcolor {
+    color: brown;
+}
+
+.propertycolor {
+    color: red
+}
+
+.propertycolorvalue {
+    color: blue
+}
+
+.tryButton {
+    background-color: #04AA6D;
+    margin: 10px;
+    border-color: #04AA6D;
+    border-bottom: none;
+    border-right: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 17px;
+    margin-left: -1px;
+}
+
+.btn-color {
+    color: white;
+}
+
+.text2 {
+    background-color: rgba(222,222,222,0.3);
+    color: crimson;
+}
